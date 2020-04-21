@@ -34,7 +34,7 @@
 <html>
 
 <head>
-	<title>ToDo List Application PHP and MySQL</title>
+	<title>ToDo List en PHP y MySQL</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
