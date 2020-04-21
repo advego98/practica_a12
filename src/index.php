@@ -41,7 +41,7 @@
 <body>
 
 	<div class="heading">
-		<h2 style="font-style: 'Hervetica';">ToDo List en PHP y MySQL</h2>
+		<h2 style="font-style: 'Hervetica';">ToDo hola List en PHP y MySQL</h2>
 	</div>
 
 
