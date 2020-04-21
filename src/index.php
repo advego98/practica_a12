@@ -34,14 +34,14 @@
 <html>
 
 <head>
-	<title>ToDo List en PHP y MySQL</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>ToDo List Application PHP and MySQL</title>
+	<link rel="stylesheet" type="text/css" href="../public/css/style.css">
 </head>
 
 <body>
 
 	<div class="heading">
-		<h2 style="font-style: 'Hervetica';">ToDo List en PHP y MySQL</h2>
+		<h2 style="font-style: 'Hervetica';">ToDo List Application PHP and MySQL database</h2>
 	</div>
 
 
