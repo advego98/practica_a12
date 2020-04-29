@@ -3,7 +3,8 @@
 	$errors = "";
 
 	// connect to database
-	$db = mysqli_connect("localhost", "root", "", "todo");
+	$db = mysqli_connect("localhost", "root", "linuxlinux", "todo");
+
 
 	// insert a quote if submit button is clicked
 	if (isset($_POST['submit'])) {
@@ -64,15 +65,15 @@
 		</thead>
 
 		<tbody>
-			<?php $i = 1; while ($row = mysqli_fetch_array($tasks)) { ?>
+			<?php while ($row = mysqli_fetch_array($tasks)) { ?>
 				<tr>
-					<td> <?php echo $i; ?> </td>
+					<td> <?php echo $row['task']; ?> </td>
 					<td class="task"> <?php echo $row['task']; ?> </td>
-					<td class="delete"> 
-						<a href="index.php?del_task=<?php echo $row['id'] ?>">x</a> 
+					<td class="delete">
+						<a href="index.php?del_task=<?php echo $row['id'] ?>">x</a>
 					</td>
 				</tr>
-			<?php $i++; } ?>	
+			<?php } ?>
 		</tbody>
 	</table>
 
